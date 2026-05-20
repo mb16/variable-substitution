@@ -3,8 +3,8 @@ import { VariableSubstitution } from "../variableSubstitution";
 import { XmlSubstitution } from '../operations/xmlVariableSubstitution';
 import { expect } from 'chai';
 
-import path = require('path');
-import sinon = require("sinon");
+import * as path from 'path';
+import * as sinon from "sinon";
 
 describe("Test variable substitution main", () => {
     var spy, JsonSubstitutionMock, XmlSubstitutionMock;

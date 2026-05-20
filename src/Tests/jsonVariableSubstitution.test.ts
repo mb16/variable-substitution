@@ -1,5 +1,5 @@
-import sinon = require("sinon");
-import chai = require('chai');
+import * as sinon from "sinon";
+import * as chai from 'chai';
 
 import { EnvTreeUtility, isPredefinedVariable } from "../operations/envVariableUtility";
 

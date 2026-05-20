@@ -18,6 +18,9 @@
   ],
   "author": "Sumiran Aggarwal <suaggar@microsoft.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "bugs": {
     "url": "https://github.com/SumiranAgg/filetransform/issues"
   },
@@ -26,7 +29,7 @@
     "@types/chai": "^4.3.11",
     "@types/minimatch": "^5.1.2",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^20.11.16",
+    "@types/node": "^24.0.0",
     "chai": "^4.4.1",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",

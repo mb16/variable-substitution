@@ -3,10 +3,10 @@ import * as envVarUtility from "../operations/envVariableUtility";
 import { XmlDomUtility } from "../operations/xmlDomUtility";
 import { XmlSubstitution } from "../operations/xmlVariableSubstitution";
 
-import chai = require('chai');
-import fs = require('fs');
-import path = require('path');
-import sinon = require("sinon");
+import * as chai from 'chai';
+import * as fs from 'fs';
+import * as path from 'path';
+import * as sinon from "sinon";
 
 var expect = chai.expect;
 
